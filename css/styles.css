@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: rgba(251, 217, 0,.6);
+}
+
+.jumbotron{
+    background-color: #FBD900;
+}
+
+.introText{
+    border: 1px solid red;
+    padding:30px;
+}
+
+.mainBody{
+    
+}
+
+.mainFunction{
+    border:1px solid blue;
+    padding: 100px;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border:1px solid blue;
+}
