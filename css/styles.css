@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgba(251, 217, 0,.6);
+    background-color: rgba(251, 217, 0,.4);
 }
 
 .jumbotron{
@@ -28,5 +28,16 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    border:1px solid blue;
+    padding: 20px;
+     background-color: #FBD900;
+}
+
+#inputPhrase{
+    height: 35px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.footerLinks li{
+display: inline;
 }
