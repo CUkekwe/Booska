@@ -32,12 +32,27 @@ footer{
      background-color: #FBD900;
 }
 
-#inputPhrase{
+/* #inputPhrase{
     height: 35px;
     border-radius: 5px;
     width: 200px;
-}
+} */
 
 .footerLinks li{
 display: inline;
+}
+
+.buttonIn{
+    position: relative;
+}
+
+.clearButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.clearButton:hover{
+    color: red;
 }

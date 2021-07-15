@@ -32,13 +32,25 @@
     </div>
 
     <div class="mainBody">
-        <div class="mainFunction">
+        <div class="container mainFunction">
             <form action="">
-                <input type="text" name="inputPhrase" id="inputPhrase" placeholder="Enter text here">
-                <button type="button" class="btn btn-light">Input Language</button>
-                <button class="btn btn-light"><i class="fa fa-retweet"></i></button>
-                <button type="button" class="btn btn-light">Output Language</button>
-                <button class="btn btn-light"><i class="fa fa-search"></i></button>
+                <div class="row">
+                    <div class="form-group col-xl-6">
+                        <div class="buttonIn">
+                            <input type="text" class="form-control" name="inputPhrase" id="inputPhrase"
+                                placeholder="Enter your text here">
+                            <button class="btn clearButton" id="clearButton"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="form-group col-xl-6">
+                        <button type="button" class="btn btn-light">Input Language<i
+                                class="fa fa-angle-down downArrow"></i></button>
+                        <button class="btn btn-light"><i class="fa fa-retweet"></i></button>
+                        <button type="button" class="btn btn-light">Output Language<i
+                                class="fa fa-angle-down downArrow"></i></button>
+                        <button type="submit" class="btn btn-light"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
             </form>
         </div>
 
@@ -97,6 +109,7 @@
 
     <!-- Scripts go at the bottom of the body element -->
     <script src="script.js"></script>
+
     <!-- Scripts needed for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
