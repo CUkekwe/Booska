@@ -56,3 +56,7 @@ display: inline;
 .clearButton:hover{
     color: red;
 }
+
+.option{
+    background-color: white;
+}
